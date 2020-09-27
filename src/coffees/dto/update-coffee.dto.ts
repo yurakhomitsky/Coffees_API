@@ -1,7 +1,8 @@
 // nest g class coffees/dto/update-coffee.dto --no-spec
 
 // npm i @nestjs/mapped-types
-import { PartialType } from '@nestjs/mapped-types';
+// import { PartialType } from '@nestjs/mapped-types';
+import { PartialType } from '@nestjs/swagger';
 import { CreateCoffeeDto } from './create-coffee.dto';
 
 // export class UpdateCoffeeDto {
